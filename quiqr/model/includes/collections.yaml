@@ -4,6 +4,7 @@
   key: post
   title: Vacatures
   extension: md
+  hideIndex: true
   fields:
     - key: info
       type: info

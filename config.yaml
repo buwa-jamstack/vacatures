@@ -6,3 +6,21 @@ markup:
     renderer:
       unsafe: true
       hardWraps: true
+
+outputs:
+  section:
+    - json
+    - html
+  home:
+    - json
+    - html
+  post:
+    - json
+    - html
+  taxonomy:
+    - json
+    - html
+  taxonomyTerm:
+    - json
+    - html
+
