@@ -1,0 +1,21 @@
+/* fce 2col */
+.fce-2col
+{
+	position:                   relative;
+	float:                      left;
+	width:                      100%;
+}
+.fce-2col 
+{
+	margin-top:                 10px;
+}
+.fce-2col-le
+{
+	float:                      left;
+	width:                      48%;
+}
+.fce-2col-ri
+{
+	float:                      right;
+	width:                      48%;
+}

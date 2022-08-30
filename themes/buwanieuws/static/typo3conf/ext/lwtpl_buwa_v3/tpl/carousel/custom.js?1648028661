@@ -1,0 +1,21 @@
+(function($) {
+
+	// Homepage slider settings
+	if ($('#slideshow-index').length > 0) {
+		$('<div></div>', {
+			id: 'index-slideshow-pager'
+		}).appendTo('#slideshow-index');
+	}
+	
+
+	if ($('#slideshow-index ul').length > 0) {
+		$('#slideshow-index ul').cycle( {
+			fx:'fade',
+			speed:3000,
+			timeout:6000,
+			pause:1,
+			pager:'#index-slideshow-pager'
+		});
+	}
+	
+})(jQuery);

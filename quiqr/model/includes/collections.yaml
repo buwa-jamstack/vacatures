@@ -1,0 +1,30 @@
+- dataformat: yaml
+  folder: content/post
+  itemtitle: Vacature
+  key: post
+  title: Vacatures
+  extension: md
+  fields:
+    - key: info
+      type: info
+      content: "Toon voorbeeld http://localhost:13131/vacatures/"
+    - key: title
+      title: Title
+      type: string
+    - key: mainContent
+      title: Main content
+      type: markdown
+
+    - key: images
+      type: bundle-manager
+      path: ./images
+      extensions:
+        - svg
+        - png
+        - jpg
+        - gif
+      fields:
+        - key: thumb
+          title: Thumb
+          type: bundle-image-thumbnail
+

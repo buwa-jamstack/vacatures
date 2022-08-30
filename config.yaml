@@ -1,0 +1,8 @@
+baseURL: https://buwa-jamstack.github.io/vacatures/
+title: BuWa Vacatures
+theme: buwanieuws
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+      hardWraps: true
