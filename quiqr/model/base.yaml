@@ -11,11 +11,42 @@ menu:
     title: Content
     menuItems:
       - key: post
+      - key: frontpage
   - key: settings
     title: Settings
     menuItems:
       - key: mainConfig
+
 singles:
+
+  - key: frontpage
+    title: Frontpage
+    file: content/_index.md
+    dataformat: yaml
+    fields:
+      - key: info
+        type: info
+        content: "Toon voorbeeld http://localhost:13131/vacatures/"
+      - key: title
+        title: Title
+        type: string
+      - key: mainContent
+        title: Main content
+        type: markdown
+
+      - key: images
+        type: bundle-manager
+        path: ./images
+        extensions:
+          - svg
+          - png
+          - jpg
+          - gif
+        fields:
+          - key: thumb
+            title: Thumb
+            type: bundle-image-thumbnail
+
   - key: mainConfig
     title: Site Configuration
     file: config.yaml
