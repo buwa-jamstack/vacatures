@@ -1,0 +1,861 @@
+#tx-powermail-pi1_fieldset_1,
+#tx-powermail-pi1_fieldset_53
+{
+	display: none;
+}
+.tx-powermail-pi1::after{
+	content: "Graag uw mail sturen naar info@buwa.nl en in het onderwerp T.a.v. vermelden.";
+
+}
+
+.tx-solr{
+
+	display: none;
+}
+body,
+html
+{
+		background:				#D3D3D3 url(../resources/achtergrond_moeras.jpeg) 0 0 no-repeat;
+		font-family:			Arial, Helvetica Neue, Helvetica, sans-serif;
+		font-size:				12px;
+		line-height:			18px;
+		color:					#626262;
+		margin:					0px;
+		width:					100%;
+		height:					100%;
+}
+hr
+{
+		border:					none!important;
+		display:				none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+		margin-top:				0px;
+}
+h1
+{
+		font-size:				18px;
+		line-height:			25px;
+		color:					#0171B9;
+		margin-bottom:			5px;
+}
+h2
+{
+		font-size:				14px;
+		line-height:			20px;
+		color:					#0171B9;
+		margin-bottom:			5px;
+}
+h3
+{
+	font-size:				12px;
+	line-height:			18px;
+	margin-bottom:			0px;
+}
+
+a:active,
+a:visited,
+a:hover,
+a:link
+{
+	color:					#626262;
+	font-style:				none;
+	text-decoration:		underline;
+}
+a:hover
+{
+	color:					#007ABE;	
+}
+/* site specific classes */
+#address-container
+{	
+	color:					white;
+	font-weight:			bold;
+	font-size:				120%;
+	width:					165px;
+	height:					80px;
+	position:				absolute;
+	top:					500px;
+	left:					25px;
+}
+#address-container a,
+#address-container a:link,
+#address-container a:active,
+#address-container a:visited,
+#address-container a:hover
+{
+	font-style:				normal;
+	text-decoration:		none;
+	color:					#FEFEFE;
+}
+#address-container a:hover
+{
+	color:					#E6E5E5;
+}
+#site-container
+{
+	background:				#F9F8F8 url(../resources/bg-content.png)  0 0 repeat-x;
+	width:					805px;
+	min-height:				100%;
+	padding-bottom:			20px;
+	position:				relative;
+	margin-left:			216px;
+}
+#header-container
+{
+	width:					805px;
+	height:					157px;
+	position:				relative;
+	float:					left;
+}
+#logo
+{
+	background:				url(../resources/logo.png) 0 0 no-repeat;
+	width:					284px;
+	height:					72px;
+	position:				absolute;
+	top:					9px;
+	left:					21px;
+}
+#extras
+{
+	width:					240px;
+	height:					72px;
+	position:				absolute;
+	top:					9px;
+	right:					21px;
+}
+#search
+{
+	width:					100%;
+	height:					51px;
+	position:				relative;
+	float:					left;
+}
+#extras-inner
+{
+	width:					100%;
+	height:					22px;
+	position:				relative;
+	float:					left;
+	overflow:				hidden;
+}
+#share
+{
+	width:					138px;
+	height:					22px;
+	position:				relative;
+	float:					left;
+}
+#extras-other
+{
+	width:					39px;
+	height:					22px;
+	position:				relative;
+	float:					right;
+}
+#youtube
+{
+	width:					17px;
+	height:					22px;
+	position:				relative;
+	float:					left;
+}
+#language
+{	
+	width:					17px;
+	height:					22px;
+	position:				relativee;
+	float:					right;
+}
+#language img
+{
+	margin-top:				2px;
+}
+#menu-container
+{
+	width:					762px;
+	height:					54px;
+	position:				relative;
+	top:					87px;
+	left:					21px;
+}
+#main-menu
+{
+	width:					696px;
+	height:					31px;
+	font-size:				13px;
+	position:				relative;
+	float:					left;
+	overflow:				hidden;
+}
+#main-menu div 
+{
+	float:					left;
+	position:				relative;
+}
+#main-menu a,
+#main-menu a:active,
+#main-menu a:link,
+#main-menu a:visited,
+#main-menu a:hover
+{
+	font-size:				13px;
+	font-weight:			bold;
+	font-style:				normal;
+	color:					#0071B9;
+	padding:				0px 8px;
+	text-decoration:		none;
+}
+#main-menu a:hover
+{
+	color:					#4FA025;
+}
+.menu-tab-left
+{
+	background:				url(../resources/menu-tab-left.png) top left no-repeat;
+	height:					31px;
+	width:					8px;
+	position:				relative;
+	float:					left;
+}
+.menu-tab-mid
+{
+	background:				url(../resources/menu-tab-mid.png) top left repeat-x;
+	height:					31px;
+	position:				relative;
+	float:					left;
+}
+.menu-tab-right
+{
+	background:				url(../resources/menu-tab-right.png) top left no-repeat;
+	height:					31px;
+	width:					8px;
+	position:				relative;
+	float:					left;
+}
+.menu-a
+{
+	margin-top:				10px;
+}
+#sub-menu
+{
+	margin-top:				1px;
+	position:				relative;
+	float:					left;
+}
+#sub-menu div 
+{
+	float:					left;
+	position:				relative;
+}
+#sub-menu a,
+#sub-menu a:active,
+#sub-menu a:link,
+#sub-menu a:visited,
+#sub-menu a:hover
+{
+	font-size:				11px;
+	font-style:				normal;
+	color:					#0071B9;
+	text-decoration:		none;
+}
+#sub-menu a:hover
+{
+	color:					#4FA025;
+}
+.menu-divider
+{
+	background:				url(../resources/menu-divider.png) 0px 3px no-repeat;
+	width:					2px;
+	height:					17px;
+}
+#sub-menu .nav-normal
+{
+	margin:					0px 28px;
+}
+#sub-menu .nav-active
+{
+	background:				url(../resources/sub-menu-bg-active.png) 0 0 repeat-x;
+	padding:				0px 28px;
+}
+.tab-left,
+.tab-left-side
+{
+	background:				url(../resources/tab-left.png) top right no-repeat;
+	height:					32px;
+	width:					15px;
+	position:				relative;
+	float:					left;
+}
+.tab-left-side
+{
+	background:				url(../resources/tab-left-side.png) top right no-repeat;
+	width:					17px;
+}
+.tab-mid
+{
+	background:				url(../resources/tab-mid.png) top left repeat-x;
+	height:					32px;
+	position:				relative;
+	float:					left;
+
+}
+.tab-right
+{
+	background:				url(../resources/tab-right.png) top left no-repeat;
+	height:					32px;
+	width:					16px;
+	position:				relative;
+	float:					left;
+
+}
+#sitemap
+{
+	width:					51px;
+	height:					27px;
+	position:				relative;
+	float:					right;
+	overflow:				hidden;
+}
+#content-container
+{
+	width:					762px;
+	margin-left:			13px;
+	position:				relative;
+	float:					left;
+}
+#full-width-block,
+#two-col-block
+{
+	width:					100%;
+	position:				relative;
+	float:					left;
+}
+#col-left
+{
+	overflow:				hidden;
+	width:					525px;
+	position:				relative;
+	float:					left;
+}
+#main-content,
+#footer
+{
+	width:					100%;
+	position:				relative;
+	float:					left;
+}
+#footer
+{
+	margin-top:				10px;
+}
+#col-right
+{
+	width:					220px;
+	position:				relative;
+	float:					right;
+}
+#force-down-footer {
+    bottom: 0;
+	line-height: 0;
+	position: absolute;
+	text-align: center;
+	width: 805px;
+}
+/*
+#force-down-footer
+{
+	position:				absolute;
+	bottom:					0px;
+	width:					100%;
+	height:					20px;
+}
+*/
+/* fce tekstkader */
+.tekstkader-volle-breedte
+{
+	background:				#FEFDFD;
+	width:					100%;
+	position:				relative;
+	float:					left;
+	margin-bottom:			10px;
+	clear:					both;
+}
+.hide
+{
+	display:				none;
+}
+.shadow-border-top
+{
+	background:				url(../resources/shadow-border-top-mid.png) top left repeat-x;
+	width:					100%;
+	height:					3px;
+	position:				relative;
+	float:					left;
+}
+.shadow-border-top-left
+{
+	background:				url(../resources/shadow-border-top-left.png) top left no-repeat;
+	width:					5px;
+	height:					3px;
+	position:				relative;
+	float:					left;
+}
+.shadow-border-top-right
+{
+	background:				url(../resources/shadow-border-top-right.png) top right no-repeat;
+	width:					5px;
+	height:					3px;
+	position:				relative;
+	float:					right;
+}
+.shadow-border-mid
+{
+	width:					100%;
+	position:				relative;
+	float:					left;
+}
+.shadow-border-mid-left
+{
+	background:				url(../resources/shadow-border-mid-left.png) top left repeat-y;
+	width:					5px;
+	position:				absolute;
+	top:					0px;
+	bottom:					0px;
+}
+.shadow-border-mid-mid
+{
+	width:					100%;
+	position:				relative;
+	float:					left;
+}
+.tekstkader-content
+{
+	position:				relative;
+	float:					left;
+	margin:					10px 16px 10px 16px;
+}
+.shadow-border-mid-right
+{
+	background:				url(../resources/shadow-border-mid-right.png) top left repeat-y;
+	width:					5px;
+	position:				absolute;
+	top:					0px;
+	bottom:					0px;
+	right:					0px;
+}
+.shadow-border-bottom
+{
+	background:				url(../resources/shadow-border-bottom-mid.png) top left repeat-x;
+	width:					100%;
+	height:					5px;
+	position:				relative;
+	float:					left;
+}
+.shadow-border-bottom-left
+{
+	background:				url(../resources/shadow-border-bottom-left.png) top left no-repeat;
+	width:					5px;
+	height:					5px;
+	position:				relative;
+	float:					left;
+}
+.shadow-border-bottom-right
+{
+	background:				url(../resources/shadow-border-bottom-right.png) top left no-repeat;
+	width:					4px;
+	height:					5px;
+	position:				relative;
+	float:					left;
+
+}
+
+/* clearfix */
+.clearfix:after 
+{
+	content: 				".";
+	display: 				block;
+	clear: 					both;
+	visibility: 			hidden;
+	line-height: 			0;
+	height: 				0;
+}
+.clearfix 
+{
+	display: 				inline-block;
+}
+html[xmlns] .clearfix 
+{
+	display: 				block;
+}
+* html .clearfix 
+{
+	height: 				1%;
+}
+
+/* plugin solr*/
+.tx-solr-q 
+{
+	background:				url("../resources/zoekveld.png") no-repeat scroll left top transparent;
+	color:					#787878;
+	border:					0 none!important;
+	height:					39px!important;
+	width:					172px !important;
+	padding:				4px 10px 0 59px !important;
+	line-height: 39px;
+}
+/* sitemap werkvelden */
+.werkveldTitle
+{
+	background:				url(../resources/bg-werkveldtitel.png) bottom left repeat-x;
+	width:					100%;
+	height:					32px;
+	clear:					both;
+	position:				relative;
+	float:					left;
+}
+.werkveldTitle h1
+{
+	margin-top:				5px;
+	font-size:				18px;
+	font-weight:			normal;
+	color:					#3EA538;
+}
+.thematopmenu
+{
+	position:				relative;
+	float:					left;
+}
+.bg-menu-werkvelden
+{
+	background:				url(../resources/bg-menu-werkvelden.png) 0 0 no-repeat;
+	width:					100%;
+	height:					18px;
+	position:				relative;
+	float:					left;
+}
+.thematopmenu li a,
+.thematopmenu li a:active,
+.thematopmenu li a:link,
+.thematopmenu li a:visited,
+.thematopmenu li a:hover
+{
+	font-style:				normal;
+	color:					#3EA538;
+	margin-left:			16px;
+	text-decoration:		none;
+}
+.thematopmenu li a:hover
+{
+	color:					#0071B9;
+}
+.thematopmenu li
+{
+	width:					173px;
+	font-size:				12px;
+	overflow:				hidden;
+	display:				block;
+	float:					left;
+}
+.selectNav a
+{
+	color:					#0060AC!important;
+}
+/* werkveld thematopmenu2 */
+.fectabcontent
+{
+	margin-top:				10px!important;
+	font-size:				12px;
+	color:					#0171B9;
+	font-weight:			bold;
+}
+.fectabcontent p
+{
+	margin:					0px 0 0px 16px;
+}
+.fectabcontent ul
+{
+	padding:				0;
+	margin:					0 0 10px 0;
+	list-style-image:		url(../resources/bullet-themamenu.png);
+}
+.fectabcontent a,
+.fectabcontent a:active,
+.fectabcontent a:link,
+.fectabcontent a:visited,
+.fectabcontent a:hover
+{
+	color:					#3EA538;
+	text-decoration:		none;
+	font-style:				normal;
+	font-weight:			normal;
+}
+.fectabcontent a:hover
+{
+	color:					#0171B9;
+}
+/* pageteaser menu */
+.page-teaser-item
+{
+	background:				#FEFDFD;
+	float:					left;
+	margin-bottom:			10px;
+	position:				relative;
+	width:					262px;
+	height:					210px;
+}
+.pageteaser-content
+{
+	position:				relative;
+	float:					left;
+}
+.pageteaser-content h3
+{
+	margin-bottom:			3px;
+}
+.pageteaser-content a,
+.pageteaser-content a:link,
+.pageteaser-content a:active,
+.pageteaser-content a:visited,
+.pageteaser-content a:hover
+{
+	color:					#0071B9;
+	font-size:				14px;
+	font-style:				normal;
+	font-weight:			bold;
+	text-decoration:		none;
+}
+.pageteaser-content a:hover
+{
+	color:					#3EA538;
+}
+.pageteaser-content p
+{
+	margin-top:				0px;
+}
+.page-teaser-item .shadow-border-mid-left,
+.page-teaser-item .shadow-border-mid-mid,
+.page-teaser-item .shadow-border-mid-right
+{
+	height:					202px;
+}
+
+.werkvelden-side-menu
+{
+	position:relative;
+}
+
+/* werkvelden side-menu */
+.werkvelden-side-menu h1
+{
+	color:					#0071B9;
+}
+.werkvelden-side-menu .thematopmenu li a,
+.werkvelden-side-menu .thematopmenu li a:active,
+.werkvelden-side-menu .thematopmenu li a:link,
+.werkvelden-side-menu .thematopmenu li a:visited,
+.werkvelden-side-menu .thematopmenu li a:hover
+{
+	color:					#0071B9;
+	font-style:				normal;
+	margin-left:			16px;
+	text-decoration:		none;
+}
+.werkvelden-side-menu .thematopmenu li a:hover
+{
+	color:					#3EA538!important;
+}
+.werkvelden-side-menu .thematopmenu li
+{
+	background:				url(../resources/bg-werkveld.png) top left no-repeat;
+	height:					21px;
+	width:					100%;				
+	border-right:			1px solid #D1CFCF;
+}
+.thematopmenu2
+{
+	width:					100%;				
+	position:				relative;
+	float:					left;
+	background:				url(../resources/bg-werkveld2.png) top left repeat-y;
+	border-right:			1px solid #D1CFCF;
+}
+.fectabcontent 
+{
+	margin: 0px 0px 0px 20px;
+}
+.fectabcontent  ul
+{
+	padding-left:11px;
+}
+
+
+.werkvelden-side-menu .selectNav
+{
+	background:				url(../resources/bg-werkveld-active.png) top left no-repeat!important;
+}
+.werkvelden-side-menu .thematopmenu li a:hover
+{
+	color:					#0071B9;
+}
+.werkvelden-side-menu-bottom
+{
+	background:				url(../resources/werkveld-menu-bottom.png) top left no-repeat;
+	width:					100%;
+	height:					4px;
+	position:				relative;
+	float:					left;
+}
+
+.csc-textpic-caption
+{
+}
+.powermail_captcha
+{
+	clear:both;
+	width:257px;
+	display:block;
+}
+
+#c2557 legend {
+	display: none;
+}
+#c2557 fieldset {
+	border: 0;
+}
+#c2557 label {
+	float: left;
+	width: 200px;
+}
+#c2557 input {
+	width: 300px;
+}
+#c2557 textarea {
+	min-height: 80px;
+	width: 300px;
+}
+#c2557 .powermail_submit {
+	width: auto
+}
+table.contenttable tr td
+{
+	vertical-align:top;
+}
+table.contenttable tr td p 
+{
+	margin:0;
+	font-family:            Arial, Helvetica Neue, Helvetica, sans-serif;
+	font-size:              12px !important;
+	line-height:            18px;
+	color:                  #626262;
+	font-weight:			normal;
+}
+.thematopmenu2 .fectabcontent p
+{
+	margin:0;
+}
+.breadcrumb            {
+	list-style:none;
+	
+}
+#breadcrum {margin-bottom:1em; font-size: 11px;}
+.breadcrumb {display: inline; padding: 0;}
+.breadcrumb li         {color:#202020;display:inline;}
+.breadcrumb li a       {color:#202020;text-decoration:none;}
+.breadcrumb li a:hover {text-decoration:underline;}
+
+.fce-2col {
+	margin-top: 0 !important;
+}
+.fce-2col-le,
+.fce-2col-ri {
+	width: 49%;
+}
+
+
+
+/* Carousel styling */
+#slideshow-index {
+    position: relative;
+    z-index: 10;
+}
+#slideshow-index ul {
+	height: 331px;
+	list-style: none;
+	margin: 0;
+    padding: 0;
+	overflow: hidden;
+	position: relative;
+	width: 497px;
+	z-index: 15;
+}
+#slideshow-index ul li {
+    height: 331px;
+    position: relative;
+    width: 497px;
+}
+#slideshow-index ul li img {
+    left: 0;
+    position: absolute;
+    top: 0;
+    z-index: 20;
+}
+#slideshow-index ul li .slidetext {
+    background: url("../resources/bg-slider-txt.png") repeat scroll left top transparent;
+    bottom: 0;
+    height: 70px;
+    overflow: hidden;
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    width: 477px;
+    z-index: 25;
+}
+.slidetext .title {
+	color: #fff;
+	font-size: 18px;
+	margin-bottom: 6px;
+}
+.slidetext p {
+    color: #999;
+    font-size: 12px;
+    line-height: 16px;
+    margin: 0;
+}
+.slidetext a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+#index-slideshow-pager {
+    bottom: 10px;
+    right: 10px;
+    position: absolute;
+    text-align: right;
+    z-index: 35;
+}
+#index-slideshow-pager a {
+    font-size: 11px;
+    display: inline-block;
+    *display: inline;
+    height: 14px;
+    line-height: 14px;
+    margin-left: 1px;
+    outline-style: none;
+    text-align: center;
+    width: 14px;
+    color: #fff;
+    text-decoration: none;
+    zoom: 1;
+}
+#index-slideshow-pager .activeSlide {
+    background: #fff;
+    color: #000;
+}
