@@ -1,5 +1,5 @@
 ---
-title: Vacature landschapsecoloog
+title: Landschapsecoloog
 ---
 
 {{< figure src="./images/landschapsecoloog.jpg"  class=right width=350 >}} 
