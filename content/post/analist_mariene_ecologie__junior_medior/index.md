@@ -1,5 +1,5 @@
 ---
-title: 'Vacature: Analist Mariene Ecologie  junior/medior (32-40 u)'
+title: Analist Mariene Ecologie  junior/medior (32-40 u)
 resources: []
 
 ---
